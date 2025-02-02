@@ -22,7 +22,7 @@ body {
   color: rgb(255, 255, 255);
   opacity: 1;
   animation-name: grain;
-  animation-duration: 5s
+  animation-duration: 1s
 }
 
 .invite {
