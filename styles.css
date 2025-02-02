@@ -11,14 +11,22 @@ body {
   
   .mainti{
     margin: auto;
-    width: 20%;
     position: absolute;
 }
 
 .desc{
-  bottom: -20%;
+  bottom: 25%;
   padding: 4px;
   margin: auto;
   position: absolute;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  animation-name: grain;
+  animation-duration: 5s
 }
+
+@keyframes grain {
+    0% { opacity: 0; }
+    75% {opacity: 0;}   
+    100% { opacity: 1; }
+  }
