@@ -15,8 +15,9 @@ body {
 }
 
 .desc{
-  bottom: 25%;
+  bottom: 30%;
   padding: 4px;
+  scale: 70%;
   margin: auto;
   position: absolute;
   color: rgb(255, 255, 255);
@@ -24,6 +25,8 @@ body {
   animation-name: grain;
   animation-duration: 1s
 }
+
+
 
 .invite {
     bottom: 15%;
