@@ -8,4 +8,28 @@ body {
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
   }
-  
+
+  .yea{
+    bottom: 40%;
+    padding: 4px;
+    scale: 100%;
+    margin: auto;
+    position: absolute;
+    color: rgb(255, 255, 255);
+  }
+
+  .cmds{
+    bottom: 20%;
+    padding: 4px;
+    scale: 157.5%;
+    margin: auto;
+    position: absolute;
+  }
+
+  .mhm{
+    bottom: 0%;
+    padding: 4px;
+    scale: 100%;
+    margin: auto;
+    position: absolute;
+  }

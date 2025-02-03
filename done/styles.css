@@ -25,7 +25,18 @@ body {
     margin: auto;
     position: absolute;
     color: rgb(255, 255, 255);
-    opacity: 1;
-    animation-name: grain;
-    animation-duration: 1s
   }
+
+  .cm {
+    color:white;
+    bottom: 15%;
+    border: none;
+    scale: 157.5%;
+    margin: auto;
+    position: absolute;
+}
+
+ .node {
+    text-decoration: none;
+    color:white
+ }
