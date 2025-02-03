@@ -12,12 +12,13 @@ body {
   .mainti{
     margin: auto;
     position: absolute;
+    scale: 225%;
 }
 
 .desc{
   bottom: 30%;
   padding: 4px;
-  scale: 70%;
+  scale: 157.5%;
   margin: auto;
   position: absolute;
   color: rgb(255, 255, 255);
@@ -31,6 +32,7 @@ body {
 .invite {
     bottom: 15%;
     border: none;
+    scale: 157.5%;
     margin: auto;
     position: absolute;
     color: rgb(255, 255, 255);
@@ -41,8 +43,15 @@ body {
     border-radius: 12px;
     animation-name: rgb;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
 }
 
+.node {
+    text-decoration: none;
+    color:white
+}
 
 @keyframes grain {
     0% { opacity: 0; }
