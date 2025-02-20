@@ -15,6 +15,18 @@ body {
     scale: 225%;
 }
 
+.updatemwo{
+  bottom: 35%;
+  padding: 4px;
+  scale: 125.0%;
+  margin: auto;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  animation-name: grain;
+  animation-duration: 1.2s
+}
+
 .desc{
   bottom: 30%;
   padding: 4px;
